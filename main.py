@@ -65,13 +65,13 @@ THRESHOLD_MAX_VS_NOW = {}
 
 
 # exchange = ccxt.coinbasepro({
-#     'apiKey':"g4g00cgecr7JswC6",
-#     'secret':"Vjsnz6auhlwDxAGMMxuwFVXIEMYORmyH"
+#     'apiKey':"",
+#     'secret':""
 # })
 
 exchange = ccxt.kraken({
-        'apiKey':"4c7rb3ySPZLSW4hS04UhwlnKF0gffdt1uuN+pFAa8xSujfLmzTQo/ZcX",
-        'secret':"s45D2wx8xyEeVg59r/MTlQ42TRApuRnnJo3zxjBezE5RBGgq4ylx8kyZ9TbEWpZlaxndNYr0B04WMI7LCb28hw=="
+        'apiKey':",
+        'secret':""
 })
 
 #markets = exchange.load_markets()
