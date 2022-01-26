@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+Project Morning Star 
 
-You can use the [editor on GitHub](https://github.com/johannwest7012/Project-Morning-Star/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Morning Star is an automated cryptocurrency trading bot that utilizes algorithmic trading strategies that are fully customizable to the operator of the bot.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The program utilizes ccxt, taLib, and pandas as pd libraries. 
+The program also utilizes an API. 
 
-### Markdown
+The operator is able to set almost every condition of cryptocurrency trading including the following: 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Buying Features: 
+* Buy time
+* Buy Quantity 
+* Buy Price 
+* Budget 
+* Budget per trade 
+* Max trades 
+* Min trades 
+* Fully customizable, analytical buy conditions/strategy 
 
-```markdown
-Syntax highlighted code block
+Selling Features: 
+* Stop Loss 
+* Take Profit 
+* Dynamic Take Profit 
+* Dynamic Stop Loss 
+* Full-sell all cryto function 
+* Fully customizable sell conditions/strategy 
 
-# Header 1
-## Header 2
-### Header 3
+Morning Star will buy and sell cryptocurrencies on almost any major market based on the operator's conditions which are heavily customizable and templated. Multiple buying strategies are currently available with a single general selling strategy. Paper trading is available and requires minimal editing of code. The program will track the cryptocurrency's current price compared to the buy-in price and will report to the console. The console will report the details of every trade and the percentage change between the buy price and the selling price. It has the function to also average together all trades for a cumulative percentage change between money spent and money gained.  
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johannwest7012/Project-Morning-Star/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
